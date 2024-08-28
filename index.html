@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Simple Click Game</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #score {
+            font-size: 24px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Click the Ball Game</h1>
-    <button id="start-btn">Start Game</button>
-    <div id="game-area"></div>
+    <div>
+        <p id="score">Score: 0</p>
+        <button onclick="increaseScore()">Click me!</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
