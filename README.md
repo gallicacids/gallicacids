@@ -1,3 +1,16 @@
+# EatTogether Platform Skeleton
+
+This repository now contains a starter project for **EatTogether**, a simple food ordering platform built with React and Node.js. The goal is to demonstrate a basic setup that includes authentication for two user roles (customer and chef) and minimal dashboards for each role.
+
+# Usage
+
+1. Install dependencies inside `backend` and `frontend` directories with `npm install`.
+   If needed, you can manually install the backend dependencies with:
+   `npm install express mongoose dotenv cors jsonwebtoken bcrypt`
+2. Start MongoDB locally or provide a connection string in the `MONGO_URI` environment variable.
+3. Run `node server.js` inside `backend` to start the API server.
+4. Open `frontend/public/index.html` in a browser to load the React app.
+
 # Welcome to Gallic Acids
 
 Gallic acid is a type of phenolic acid commonly found in various plants, fruits, and teas. It is known for its antioxidant, antimicrobial, and anti-inflammatory properties.
