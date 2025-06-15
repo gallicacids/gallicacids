@@ -16,6 +16,12 @@ Gallic acid is a type of phenolic acid commonly found in various plants, fruits,
 ### Contact Us
 For more information, please contact [your-email@example.com](mailto:your-email@example.com).
 
+## Running in Replit
+
+1. Create a new Replit and choose the **HTML, CSS, JS** template.
+2. Copy the files `index.html`, `style.css`, and `script.js` from this repository into the Replit workspace.
+3. Click the **Run** button to preview the site. You should see a clickable score counter and a red ball inside the game area.
+
 
 # Gallic Acids Official
 
