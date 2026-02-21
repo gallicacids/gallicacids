@@ -48,3 +48,25 @@ For more information, please contact [your-email@example.com](mailto:your-email@
 ---
 
 © 2024 Gallic Acids. All rights reserved.
+
+---
+
+## Reference Parsing Utility
+
+This repository includes a small script, `parse_references.py`, which can read
+references from a Word document and export them to a new document as a table.
+
+### Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+```bash
+python parse_references.py input.docx output.docx
+```
+
